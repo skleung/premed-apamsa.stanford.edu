@@ -1,0 +1,6 @@
+This website is for the Pre-med APAMSA Organization at Stanford University.
+Marks my first attempts at using LESS (the CSS extention) and more stuff with jQuery.
+
+Goals include:
+	A scrollbar that automatically docks when you scroll down past the home page.
+	A cool looking logo to use for future branding...
