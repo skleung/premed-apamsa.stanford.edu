@@ -1,6 +1,23 @@
-This website is for the Pre-med APAMSA Organization at Stanford University.
-Marks my first attempts at using LESS (the CSS extention) and more stuff with jQuery.
+premed-apamsa.stanford.edu
+==========================
+This website is for the pre-med APAMSA Organization at Stanford University.
+It marks my first attempts at using LESS (the CSS extention) and more stuff with jQuery.
 
 Goals include:
-	A scrollbar that automatically docks when you scroll down past the home page.
-	A cool looking logo to use for future branding...
+--------------
+	
+- [x] A scrollbar that automatically docks when you scroll down past the home page.
+- [x] A cool looking logo to use for future branding
+- [x] Dynamic Members section that's random upon loading
+- [ ] php/sql database to update mailing list
+
+Things learned:
+---------------
+
+- InkScape to generate svg's
+- Gimp to generate imgs with transparent bg's
+- LESS, more jQuery
+
+
+
+
