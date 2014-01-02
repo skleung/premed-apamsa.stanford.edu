@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4295"
+   version="1.1"
+   inkscape:version="0.48.4 r"
+   sodipodi:docname="red tagline.svg"
+   height="100%"
+   width="100%"
+   viewBox="0 0 4000 600">
+  <defs
+     id="defs4297">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4908">
+      <path
+         sodipodi:type="star"
+         style="fill:#ffff00;fill-opacity:1"
+         id="path4910"
+         sodipodi:sides="3"
+         sodipodi:cx="331.42856"
+         sodipodi:cy="475.21933"
+         sodipodi:r1="376.36282"
+         sodipodi:r2="188.18143"
+         sodipodi:arg1="0.52479577"
+         sodipodi:arg2="1.5719933"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 657.14284,663.79075 331.20331,663.40062 5.2637736,663.01046 168.5714,380.93361 331.87906,98.856776 494.51096,381.32375 z"
+         inkscape:transform-center-x="0.22130489"
+         inkscape:transform-center-y="-92.945817"
+         transform="matrix(0.98246826,0,0,0.98988503,28.663706,138.1428)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="799.91709"
+     inkscape:cy="307.3788"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4300">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(968.53089,-195.99964)">
+    <g
+       id="g4901"
+       transform="translate(17.142858,-40.000003)"
+       clip-path="url(#clipPath4908)">
+      <path
+         transform="translate(-14.285719,60.000003)"
+         inkscape:transform-center-y="-89.852527"
+         inkscape:transform-center-x="0.085143483"
+         d="M 682.85712,726.64788 371.34342,726.50042 59.829715,726.35294 215.71426,456.64789 371.59884,186.94285 527.22799,456.79535 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5712697"
+         sodipodi:arg1="0.52407218"
+         sodipodi:r2="179.85255"
+         sodipodi:r1="359.70508"
+         sodipodi:cy="546.64789"
+         sodipodi:cx="371.42856"
+         sodipodi:sides="3"
+         id="path4309"
+         style="fill:#990000;fill-opacity:1"
+         sodipodi:type="star" />
+      <path
+         transform="matrix(1.2919708,0,0,1.0779221,-90.19813,-83.931749)"
+         d="m 651.42857,783.79077 a 195.71428,220 0 1 1 -391.42855,0 195.71428,220 0 1 1 391.42855,0 z"
+         sodipodi:ry="220"
+         sodipodi:rx="195.71428"
+         sodipodi:cy="783.79077"
+         sodipodi:cx="455.71429"
+         id="path4321"
+         style="fill:#ffffff;fill-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.6470588,0,0,2.2125,-368.90756,-906.91771)"
+         d="m 662.85716,760.93359 a 121.42857,114.28571 0 1 1 -242.85714,0 121.42857,114.28571 0 1 1 242.85714,0 z"
+         sodipodi:ry="114.28571"
+         sodipodi:rx="121.42857"
+         sodipodi:cy="760.93359"
+         sodipodi:cx="541.42859"
+         id="path4323"
+         style="fill:#990000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <rect
+         y="783.79077"
+         x="42.857143"
+         height="265.71429"
+         width="691.42859"
+         id="rect4329"
+         style="fill:#ffffff;fill-opacity:1" />
+      <rect
+         transform="matrix(0.4955223,0.86859522,-0.84285454,0.53814145,0,0)"
+         y="-641.19067"
+         x="363.22485"
+         height="454.60571"
+         width="764.37946"
+         id="rect4331"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:782.31829834px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#990000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+       x="665.78912"
+       y="720.0752"
+       id="text5444"
+       sodipodi:linespacing="125%"
+       transform="scale(0.96368504,1.0376834)"><tspan
+         sodipodi:role="line"
+         id="tspan5446"
+         x="665.78912"
+         y="720.0752">PAMSA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:266.91519165px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#990000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+       x="-1216.5159"
+       y="368.46146"
+       id="text5448"
+       sodipodi:linespacing="125%"
+       transform="scale(0.78870418,1.2679025)"><tspan
+         sodipodi:role="line"
+         id="tspan5450"
+         x="-1216.5159"
+         y="368.46146">STANFORD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:310.65036011px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#990000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+       x="-1089.0476"
+       y="658.34772"
+       id="text5452"
+       sodipodi:linespacing="125%"
+       transform="scale(0.89893739,1.1124245)"><tspan
+         sodipodi:role="line"
+         id="tspan5454"
+         x="-1089.0476"
+         y="658.34772">PREMED</tspan></text>
+  </g>
+</svg>
