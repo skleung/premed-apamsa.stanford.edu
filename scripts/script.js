@@ -53,24 +53,7 @@ $(window).resize(function() {
 });
 
 $(document).ready(function($) { 
-	$(".scroll").click(function(event){
-		//prevent the default action for the click event
-		event.preventDefault();
 
-		//get the full url - like mysitecom/index.htm#home
-		var full_url = this.href;
-
-		//split the url by # and get the anchor target name - home in mysitecom/index.htm#home
-		var parts = full_url.split("#");
-		var trgt = parts[1];
-
-		//get the top offset of the target anchor
-		var target_offset = $("#" + trgt).offset();
-		var target_top = target_offset.top;
-
-		//goto that anchor by setting the body scroll top to anchor top
-		$('html, body').animate({scrollTop: target_top}, 400);
-	});
 });
 
 //feature-box javascript
@@ -130,17 +113,40 @@ $(document).ready(function($) {
 		}
 		feature();
 	}
+	$(".feature-box").hide();
+	$(".members").hide();
 	var initialized = false;
 	var buffer = 200; //to start the initializing
 	$(window).scroll(function() {
 		if (!initialized && ($("#members").offset().top - $(window).scrollTop() < buffer)){
 	 		initialize();
 	 		initialized= true;
-		}else if (initialized && ($("#members").offset().top - $(window).scrollTop() > buffer*2)){
-			$(".feature-box").hide();
-			$(".members").hide();
-			initialized = false;
+	 	}
+		// }else if (initialized && ($("#members").offset().top - $(window).scrollTop() > buffer*2)){
+		// 	$(".feature-box").hide();
+		// 	$(".members").hide();
+		// 	initialized = false;
+		// }
+	});
+	$(".scroll").click(function(event){
+		//prevent the default action for the click event
+		event.preventDefault();
+
+		//get the full url - like mysitecom/index.htm#home
+		var full_url = this.href;
+
+		//split the url by # and get the anchor target name - home in mysitecom/index.htm#home
+		var parts = full_url.split("#");
+		var trgt = parts[1];
+		if (trgt ==="members"){
+			initialize();
 		}
+		//get the top offset of the target anchor
+		var target_offset = $("#" + trgt).offset();
+		var target_top = target_offset.top;
+
+		//goto that anchor by setting the body scroll top to anchor top
+		$('html, body').animate({scrollTop: target_top}, 400);
 	});
 	$(".member").click(function(event){
 		var id = $(this).attr('id');
