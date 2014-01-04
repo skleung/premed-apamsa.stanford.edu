@@ -58,10 +58,13 @@ $(document).ready(function($) {
 
 //feature-box javascript
 $(document).ready(function($) { 
+	var added = ["sherman", "cheylene"];
 	var names = ["stephen", "spencer", "steven", "jasonkh","jasonku","sherman","phuong", "jessica", "cheylene", "catherine"];
 	var fullNames = ["Stephen Ahn", "Spencer Chang", "Steven Chen", "Jason Khoo", "Jason Kung", "Sherman Leung", "Phuong Ngyuen", "Jessica Shen", "Cheylene Tanimoto", "Catherine Zaw"];
 	var titles = ["Founding Member", "President", "Founding Member", "Founding Member", "Founding Member", "Secretary","Treasurer", "Founding Member", "Founding Member","Vice-President"];
-	var text = ["stephen says...", "spencer says...", "steven says...","jason says...", "jason says...","I'm a computer science major interested in building mobile applications to make healthcare more accessible and medicine more understood. Outside of school, I can be found designing websites, apps, or producing music. I'm excited for the start of this group, and to share my experiences as an unconventional premed.","phuong says...","jessica says...","cheylene says...","catherine says..."]
+	var shermanText = "I'm a computer science major interested in building mobile applications to make healthcare more accessible and medicine more understood. Outside of school, I can be found designing websites, apps, or producing music. I'm excited for the start of this group, and to share my experiences as an unconventional premed."
+	var cheyleneText = "I'm majoring in human biology with a focus on bio-medical science. I am interested in providing healthcare to those in need. I am in a polynesian dance group called Kaorihiva and I love to cook and bake. I'm excited to see where this group will go, providing valuable information to premed students and also increasing awareness of Asian American health disparities. "
+	var text = ["stephen says...", "spencer says...", "steven says...","jason says...", "jason says...",shermanText,"phuong says...","jessica says...",cheyleneText,"catherine says..."]
 	function swap(i){
 		swapHelper(names,i);
 		swapHelper(fullNames,i);
@@ -75,7 +78,7 @@ $(document).ready(function($) {
 	}
 	function list(id){
 		$("#"+id).hide();
-		if (names[0] ==="sherman"){
+		if (added.indexOf(names[0]) > -1){
 			$("#"+id).css({
 				'background-image': "url('images/members/circle-"+names[0]+".png')",
 				'background-size': '100% 100%'
