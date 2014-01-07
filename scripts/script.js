@@ -105,16 +105,17 @@ $(document).ready(function($) {
 
 //feature-box javascript
 $(document).ready(function($) { 
-	var added = ["jessica","sherman", "cheylene", "stephen","catherine"];
+	var added = ["jasonkh","jessica","sherman", "cheylene", "stephen","catherine"];
 	var names = ["stephen", "spencer", "steven", "jasonkh","jasonku","sherman","phuong", "jessica", "cheylene", "catherine"];
 	var fullNames = ["Stephen Ahn", "Spencer Chang", "Steven Chen", "Jason Khoo", "Jason Kung", "Sherman Leung", "Phuong Ngyuen", "Jessica Shen", "Cheylene Tanimoto", "Catherine Zaw"];
 	var titles = ["Founding Member", "President", "Founding Member", "Founding Member", "Founding Member", "Secretary","Treasurer", "Founding Member", "Founding Member","Vice-President"];
 	var jessicaText = "Hello! I'm majoring in Biology, with my interest mostly on the organismal scale of things. In my free time, I enjoy playing gigs with my viola and doodling on piano and paper. With the opportunities afforded this organization by its infancy, I'm looking forward to finding and hopefully filling gaps within the community."
 	var shermanText = "I'm a computer science major interested in building mobile applications to make healthcare more accessible and medicine better understood. Outside of school, I can be found designing websites, apps, or producing music. I'm excited for the start of this group, and to share my experiences as an unconventional premed."
+	var jasonKhooText = "Hi! I'm a Human Biology major interested in how we can best optimize our health systems to supply the ever increasing demand for affordable health care. I'm particularly excited about how collaboration between health workers, policy writers, and biotech innovators can revolutionize the industry as we know it. Outside of classes you can find me watching a bajillion movies/tv shows, playing hockey, at the squash courts, or obsessing over food. I'm super excited to be working with the awesome team of floating heads on the right to help others on their premed journey."
 	var cheyleneText = "I'm majoring in human biology with a focus on bio-medical science. I am interested in providing healthcare to those in need. I am in a polynesian dance group called Kaorihiva and I love to cook and bake. I'm excited to see where this group will go, providing valuable information to premed students and also increasing awareness of Asian American health disparities. "
 	var catherineText = "I'm a biology and linguistics major interested in alleviating health disparities in less fortunate communities. Future goals include finishing a novel, walking the Great Wall of China, owning a food truck and eventually become a doctor. I'm a writer by nature, philanthropist in mind, scientist at heart, and food lover for life. Seeing APAMSA's potential inspires me to make sure that our vision is carried through and I'm so fortunate to be working with a team full of bright and talented people."
 	var stephenText = "I'm a Biology major focused on Molecular and Cell Biology. Among other things, I'm primarily interested in oncology and the concept of understanding cancer so we may one day conquer it. Outside of school, you can catch me blasting music, jamming on my cello, or going on a run. Creating our impact through APAMSA excites me to no end, and I'm thrilled to be able to share my knowledge and experiences along the journey ahead."
-	var text = [stephenText, "spencer says...", "steven says...","jason says...", "jason says...",shermanText,"phuong says...",jessicaText,cheyleneText,catherineText]
+	var text = [stephenText, "spencer says...", "steven says...",jasonKhooText, "jason says...",shermanText,"phuong says...",jessicaText,cheyleneText,catherineText]
 	function swap(i){
 		swapHelper(names,i);
 		swapHelper(fullNames,i);
