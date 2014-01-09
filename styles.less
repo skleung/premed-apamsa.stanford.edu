@@ -2,7 +2,7 @@
 @cardinal: #990000; 
 @welcome-width: 35%;
 @welcome-height: 90%;
-@font-face{font-family:norwester;src:url("fonts/norwester.ttf"),url("fonts/norwester.eot")};
+@font-face{font-family:norwester;src:url("fonts/norwester.woff")};
 
 .box-shadow (@x, @y, @blur, @alpha) {
   @value: @x @y @blur rgba(0, 0, 0, @alpha);
@@ -30,7 +30,7 @@
 	h3{
 		font-size:30px;
 	}
-	font-family:norwester;
+	font-family:norwester, helvetica, sans-serif;
 	color: #fff;
 	width: @welcome-width;
 	height: @welcome-height;
