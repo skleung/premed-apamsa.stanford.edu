@@ -10,6 +10,10 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.emailBox{
+  margin-top: 10px;
+  display:none;
+}
 .welcome {
   font-family: norwester, helvetica, sans-serif;
   color: #fff;

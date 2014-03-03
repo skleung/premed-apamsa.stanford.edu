@@ -43,6 +43,10 @@ $(document).ready(function($) {
 		init = ($('.nav')).offset().top;
 		dockOrNot();
 	});
+	$('.email').click(function (){
+		$('.emailBox').slideDown();
+	});
+
 
 	$('.subscribe').click(function (){
 		$('.subscribeBox').slideDown();
