@@ -10,10 +10,6 @@
   text-decoration: underline;
   cursor: pointer;
 }
-.emailBox{
-  margin-top: 10px;
-  display:none;
-}
 .welcome {
   font-family: norwester, helvetica, sans-serif;
   color: #fff;
@@ -124,6 +120,37 @@ h3 {
   font-family: norwester;
   font-weight: bold;
   margin-bottom: 0px;
+}
+#heroText {
+  font-family: norwester;
+  font-size: 80px;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  top: -450px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+#cover {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: #222;
+}
+#hero {
+  width: 100%;
+  height: 650px;
+  background-image: url('images/cancer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.85;
 }
 #about {
   background-size: 100% ;
