@@ -173,6 +173,10 @@ h3 {
   margin-top: 5%;
   display: inline-block;
 }
+.sponsor-logo {
+  width: 60%;
+  margin-left: 0px;
+}
 .content {
   margin: 100px auto 100px auto;
 }
