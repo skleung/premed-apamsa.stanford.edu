@@ -300,6 +300,7 @@ h3 {
   width: 30%;
 }
 #join .join-button {
+  cursor: hand;
   font-family: norwester;
   font-size: 30px;
   width: 250px;
