@@ -106,9 +106,9 @@ $(window).resize(function() {
 
 //feature-box javascript
 $(document).ready(function($) { 
-	var names = ["stephen", "spencer", "steven", "jasonkh","jasonku","sherman","phuong", "jessica", "cheylene", "catherine"];
-	var fullNames = ["Stephen Ahn", "Spencer Chang", "Steven Chen", "Jason Khoo", "Jason Kung", "Sherman Leung", "Phuong Ngyuen", "Jessica Shen", "Cheylene Tanimoto", "Catherine Zaw"];
-	var titles = ["Founding Member", "President", "Founding Member", "Founding Member", "Founding Member", "Secretary","Treasurer", "Founding Member", "Founding Member","Vice-President"];
+	var names = ["", "spencer", "steven", "jasonkh","jasonku","sherman","phuong", "jessica", "cheylene", ""];
+	var fullNames = ["", "Spencer Chang", "Steven Chen", "Jason Khoo", "Jason Kung", "Sherman Leung", "Phuong Ngyuen", "Jessica Shen", "Cheylene Tanimoto", ""];
+	var titles = ["", "President", "Program Development co-chair", "Program Development co-chair", "Publicity Chair", "Secretary","Vice-President", "Events co-chair", "Events co-chair", ""];
 	var jessicaText = "Hello! I'm majoring in Biology, with my interest mostly on the organismal scale of things. In my free time, I enjoy playing gigs with my viola and doodling on piano and paper. With the opportunities afforded this organization by its infancy, I'm looking forward to finding and hopefully filling gaps within the community."
 	var jasonkuText = "Hello! My name is Jason and I am a 3rd year biology major with a focus on molecular/cellular/developmental biology. In joining APAMSA, I hope to learn more about health care and the issues that affect the API community. Like the other founding members, I am excited to see where this group will go and see how it impacts the university. In my spare time, you can find me planning events, learning graphic design, or enjoying a freshly brewed coffee at a cafe."
 	var spencerText = "I’m a Biology major from Portland, Oregon. Starting this organization, I had two things in mind: 1) to foster a community among premeds and those interested in API health issues, and 2) to spread awareness of the many health disparities affecting the API population. I’m interested in the ongoing changes to healthcare and how greater accessibility to healthcare could influence the current outlook on health disparities. Outside of APAMSA, you can find me doing lab research in the Department of Microbiology and Immunology, volunteering at Arbor Free Clinic, drinking coffee, and rooting for the Portland Trailblazers. I am really excited for Stanford Pre-Med APAMSA to make a notable impact on campus and beyond."
@@ -117,9 +117,7 @@ $(document).ready(function($) {
 	var phuongText = "I’m a sophomore majoring in Neurobiology, and am excited to see Stanford APAMSA in its first year! From Portland, Oregon, I like to hike and bike in my free time, and it was in my free time that I intern at a lab at a nearby university. It was there where I discovered my interest in neurology, and I hope that she can help others discover new interests this year as well."
 	var jasonKhooText = "Hi! I'm a Human Biology major interested in how we can best optimize our health systems to supply the ever increasing demand for affordable health care. I'm particularly excited about how collaboration between health workers, policy writers, and biotech innovators can revolutionize the industry as we know it. Outside of classes you can find me watching a bajillion movies/tv shows, playing hockey, at the squash courts, or obsessing over food. I'm super excited to be working with the awesome team of floating heads on the right to help others on their premed journey."
 	var cheyleneText = "I'm majoring in human biology with a focus on bio-medical science. I am interested in providing healthcare to those in need. I am in a polynesian dance group called Kaorihiva and I love to cook and bake. I'm excited to see where this group will go, providing valuable information to premed students and also increasing awareness of Asian American health disparities. "
-	var catherineText = "I'm a biology and linguistics major interested in alleviating health disparities in less fortunate communities. Future goals include finishing a novel, walking the Great Wall of China, owning a food truck and eventually become a doctor. I'm a writer by nature, philanthropist in mind, scientist at heart, and food lover for life. Seeing APAMSA's potential inspires me to make sure that our vision is carried through and I'm so fortunate to be working with a team full of bright and talented people."
-	var stephenText = "I'm a Biology major focused on Molecular and Cell Biology. Among other things, I'm primarily interested in oncology and the concept of understanding cancer so we may one day conquer it. Outside of school, you can catch me blasting music, jamming on my cello, or going on a run. Creating our impact through APAMSA excites me to no end, and I'm thrilled to be able to share my knowledge and experiences along the journey ahead."
-	var text = [stephenText, spencerText, stevenText,jasonKhooText, jasonkuText,shermanText,phuongText,jessicaText,cheyleneText,catherineText]
+	var text = ["", spencerText, stevenText,jasonKhooText, jasonkuText,shermanText,phuongText,jessicaText,cheyleneText, ""]
 	function swap(i){
 		swapHelper(names,i);
 		swapHelper(fullNames,i);
@@ -140,6 +138,7 @@ $(document).ready(function($) {
 		$("#"+id).fadeIn(1500);
 	}
 	function feature(){
+		$(".description").html("");
 		$(".feature-box").hide();
 		$(".name").html(fullNames[0]);
 		$(".title").html(titles[0]);
@@ -173,11 +172,6 @@ $(document).ready(function($) {
 	 		initialize();
 	 		initialized= true;
 	 	}
-		// }else if (initialized && ($("#members").offset().top - $(window).scrollTop() > buffer*2)){
-		// 	$(".feature-box").hide();
-		// 	$(".members").hide();
-		// 	initialized = false;
-		// }
 	});
 	$(".scroll").click(function(event){
 		//prevent the default action for the click event
