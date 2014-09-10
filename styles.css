@@ -183,9 +183,32 @@ h3 {
 .content h1 {
   font-size: 50px;
 }
+
+.team-member-row {
+  margin-top: 40px;
+}
+.team-member {
+  text-align: center;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.team-member h3 {
+  font-size: 16px;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.team-member a {
+  color: black;
+}
+.team-member a:hover {
+  text-decoration: none;
+  color: #32cd32;
+}
 #members {
   background-color: #fff;
   height: 100%;
+  padding-top: 50px;
 }
 #members .featured {
   margin-top: 100px;
@@ -252,6 +275,9 @@ h3 {
   margin-top: 100px;
   float: right;
   width: 40%;
+}
+#join {
+  background-color: #eee;
 }
 #projects {
   background-image: url("images/blurred clark.jpg");
