@@ -200,10 +200,12 @@ h3 {
 }
 .team-member a {
   color: black;
+  text-decoration: none;
 }
 .team-member a:hover {
+  cursor: pointer;
   text-decoration: none;
-  color: #32cd32;
+  color: #990000;
 }
 #members {
   background-color: #fff;
